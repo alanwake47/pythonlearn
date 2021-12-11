@@ -1,5 +1,7 @@
-Dog Name,Owner Name,Dog Breed,Missing?
-Bayes,DataCamp,Golden Retriever,Still Missing
-Sigmoid,,Dachshund,Still Missing
-Sparky Dr.,Dr. Apache,Border Collie,Found
-Theorem,Joseph-Louis Lagrange,French Bulldog,Found
+Dog Name,Owner Name,Dog Breed,Status,Age
+Bayes,DataCamp,Golden Retriever,Still Missing,1
+Sigmoid,,Dachshund,Still Missing,2
+Sparky,Dr. Apache,Border Collie,Found,3
+Theorem,Joseph-Louis Lagrange,French Bulldog,Found,4
+Ned,Tim Oliphant,Shih Tzu,Still Missing,2
+Benny,Hillar Green-Lerman,Poodle,Found,3
