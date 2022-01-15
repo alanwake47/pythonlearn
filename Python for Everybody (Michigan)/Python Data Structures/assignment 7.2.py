@@ -1,6 +1,5 @@
-# Use the file name mbox-short.txt as the file name
 import os
-os.chdir(r'C:\Users\Aman\Git\pythonlearn\Python for Everybody (Michigan)\Python Data Structures')
+os.chdir(r'/Users/amankrishna/Git/pythonlearn/Python for Everybody (Michigan)/Python Data Structures')
 
 fname = input("Enter file name: ")
 try:
