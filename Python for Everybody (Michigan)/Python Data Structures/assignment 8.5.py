@@ -11,7 +11,7 @@ except:
 word=()
 count = 0
 for line in fh:
-    if not line[:5] == "From":
+    if not line[:5] == "From ":
         continue
     else:
         count+=1
