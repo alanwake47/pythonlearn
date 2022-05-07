@@ -1,8 +1,8 @@
 from six.moves import urllib
-from sklearn.datasets import fetch_openml
+import os
 
-def load_mnist():
-    mnist_path = "./mnist-original.mat"
+def load_mnist(data_home='.'):
+    mnist_path = os.path.join(data_home, "mnist-original.mat")
     from scipy.io import loadmat
     mnist_raw = loadmat(mnist_path)
     mnist = {
